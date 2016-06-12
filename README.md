@@ -16,7 +16,6 @@ How to run?
 * `source so/bin/activate`
 * `pip install -r requirements.txt` (wait till the requirements are installed)
 * `python manage.py syncdb`
-     * It will prompt to create a new user type "yes" and add give a username, email and password. This will be one of the user which we can use to try our API.
 * `python manage.py runserver` This will run the application on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 Getting the data
