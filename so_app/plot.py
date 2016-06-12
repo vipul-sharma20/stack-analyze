@@ -3,6 +3,11 @@ import plotly.graph_objs as go
 
 
 def plot_data(model_objects):
+    """
+    Create bar graphs using Plotly
+    :param model_objects:
+    :return: bar chart plots
+    """
     x = []
     y = []
     y_post_count = []
