@@ -17,6 +17,7 @@ How to run?
 * `pip install -r requirements.txt` (wait till the requirements are installed)
 * `python manage.py syncdb`
 * `python manage.py runserver` This will run the application on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+Read below to create DB of tags
 
 Getting the data
 ----------------
