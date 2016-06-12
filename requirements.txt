@@ -1,0 +1,6 @@
+Django==1.8
+plotly==1.12.0
+pytz==2016.4
+requests==2.10.0
+six==1.10.0
+wheel==0.24.0
