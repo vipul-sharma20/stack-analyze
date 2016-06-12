@@ -11,5 +11,7 @@ class HomeView(View):
 
     def get(self, request, *args, **kwargs):
         tags = StackOverflowTagsInfo.objects.all()
-        div1, div2 = plot_data(tags)
-        return render(request, 'index.html', {'div1': div1, 'div2': div2})
+        if tags:
+            div1, div2 = plot_data(tags)
+            return render(request, 'index.html', {'div1': div1, 'div2': div2})
+        return render(request, 'index.html')
