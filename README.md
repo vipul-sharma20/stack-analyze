@@ -16,13 +16,13 @@ How to run?
 * `source so/bin/activate`
 * `pip install -r requirements.txt` (wait till the requirements are installed)
 * `python manage.py syncdb`
+* `python manage.py getdata` (Read Below for explanation)
 * `python manage.py runserver` This will run the application on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-Read below to create DB of tags
 
 Getting the data
 ----------------
 A custom `django-admin` command is created to get the data of top 50 tags from
 StackOverflow and populate the models. Use:
-* `./manage.py getdata` (This may take some time to make requests and store the data)
+* `python manage.py getdata` (This may take some time to make requests and store the data)
 
 This command runs `script.py` of the app to make API requests and store data into the DB
